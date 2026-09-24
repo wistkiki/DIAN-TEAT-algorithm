@@ -1,0 +1,10 @@
+
+ 项目                Windows 本机                        WSL (Ubuntu 24.04)
+ 运行环境            Anaconda (base 装在 D:\Anaconda)     Miniconda (装在 ~/miniconda3)
+ conda 环境名        pytorch                            pytorch
+ Python              3.10.21                            3.12.3
+ pip                 26.2.1                             26.2.1
+ CUDA Runtime        12.8 (随 torch wheel 一起)          12.8 (随 torch wheel 一起)
+ cuDNN               9.19.0 (91900)                     9.19.0 (91900)
+ torch               2.11.0+cu128                       2.11.0+cu128
+ torchvision         0.26.0+cu128                       0.26.0+cu128

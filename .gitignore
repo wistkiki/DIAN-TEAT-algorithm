@@ -1,0 +1,28 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+
+# ---------- 数据集与缓存（体积最大的元凶, 必须排除）----------
+# data/ 约 2.86 GB, deli/ 约 1.8 GB, 远超 GitHub 单文件 100 MB / 仓库 1 GB 的限制
+data/
+deli/
+*.npy
+
+# ---------- 模型权重（单个 10~31 MB, 7 个共 61 MB）----------
+# 想让别人 clone 下来直接跑 --eval, 就把下面这行删掉
+model/*.pth
+
+# ---------- 临时/调试文件 ----------
+_envtmp/
+_conv/
+_tmpx/
+_envtmp_dump.py
+_envtmp_meta.py
+*.tmp
